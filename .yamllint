@@ -1,0 +1,12 @@
+---
+extends: 'default'
+
+rules:
+  quoted-strings: 'enable'
+
+yaml-files:
+  - '*.yaml'
+  - '*.yml'
+  - '.yamllint'
+  - '.ansible.lint'
+...
